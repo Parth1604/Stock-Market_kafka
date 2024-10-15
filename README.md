@@ -19,7 +19,3 @@ The pipeline starts with a Python CSV app that simulates stock market data. The 
 ## Key Learnings
 - Learned how to integrate Kafka with AWS.
 - Gained experience with real-time data processing and storage.
-
----
-
-This keeps the explanation simple while grouping the sections into clear paragraphs without bullet points.
