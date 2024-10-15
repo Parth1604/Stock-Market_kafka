@@ -1,4 +1,4 @@
-Here’s a simpler version of the GitHub text with bullet points:
+Here’s a simpler version of the text without bullet points for **Technologies Used** and **Data Pipeline Architecture**:
 
 ---
 
@@ -8,28 +8,10 @@ Here’s a simpler version of the GitHub text with bullet points:
 This project builds a data pipeline to process and analyze live stock market data using **Apache Kafka** and **AWS** services.
 
 ## Technologies Used
-- Python
-- Apache Kafka
-- AWS EC2
-- Amazon S3
-- AWS Glue
-- Amazon Athena
+The project makes use of the following technologies: **Python**, **Apache Kafka**, **AWS EC2**, **Amazon S3**, **AWS Glue**, and **Amazon Athena**.
 
 ## Data Pipeline Architecture
-- **Python CSV App** (Producer)  
-  Simulates stock market data.
-- **Kafka** (on EC2)  
-  Sends data in real-time.
-- **Consumer**  
-  Receives and processes the data.
-- **Amazon S3**  
-  Stores the data.
-- **AWS Crawler**  
-  Catalogs the data in S3.
-- **AWS Glue**  
-  Manages the data schema.
-- **Amazon Athena**  
-  Allows SQL queries on the data.
+The pipeline starts with a Python CSV app that simulates stock market data. The data is sent to Kafka, running on an EC2 instance, which handles real-time streaming. A consumer reads this data and stores it in Amazon S3. AWS Crawler catalogs the data, and AWS Glue manages its schema. Finally, you can query the data using Amazon Athena.
 
 ## How It Works
 1. Data is simulated from a CSV file using Python.
@@ -44,4 +26,4 @@ This project builds a data pipeline to process and analyze live stock market dat
 
 ---
 
-This version is more concise and direct while keeping the key information intact.
+This keeps the explanation simple while grouping the sections into clear paragraphs without bullet points.
