@@ -1,0 +1,131 @@
+Start Zoo-keeper:
+-------------------------------
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+
+before starting kafka server made sure that it listen to ec2 instace ip by editing server.properties file.
+Start Kafka-server:
+----------------------------------------
+assign memory to kafka : export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
+
+start kafka : bin/kafka-server-start.sh config/server.properties
+
+
+create a topic
+bin/kafka-topics.sh --create --topic market-data --bootstrap-server xyz:9092 --replication-factor 1 --partitions 1
+
+
+start producer 
+bin/kafka-console-producer.sh --topic market-data --bootstrap-server xyz:9092
+
+start consumer
+bin/kafka-console-consumer.sh --topic market-data --bootstrap-server xyz:9092
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
