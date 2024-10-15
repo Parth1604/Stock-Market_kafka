@@ -1,7 +1,3 @@
-Here’s a simpler version of the text without bullet points for **Technologies Used** and **Data Pipeline Architecture**:
-
----
-
 # Stock Market Real-Time Data Analysis
 
 ## Overview
